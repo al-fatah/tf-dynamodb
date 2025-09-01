@@ -10,7 +10,7 @@ This repo provisions:
 - Terraform >= 1.5
 - AWS CLI configured (`aws configure`) with permissions to create DynamoDB tables and access S3.
 
-## 0) Create/choose S3 bucket and lock table (one-time)
+## Create/choose S3 bucket and lock table (one-time)
 You can create these once per account/region (or reuse existing):
 
 ```bash
