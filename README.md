@@ -1,6 +1,7 @@
-# DynamoDB with Terraform: alfatah-bookinventory
+# DynamoDB with Terraform – alfatah-bookinventory
 
-This repo provisions:
-- DynamoDB table: `alfatah-bookinventory`
-  - Partition key: `ISBN` (String)
-  - Sort key: `Genre` (String)
+This project provisions an **AWS DynamoDB** table using **Terraform** with a defined backend for storing Terraform state.
+
+- **Table Name:** `alfatah-bookinventory`  
+- **Region:** `us-east-1`  
+- **Backend:** Local (`state/terraform.tfstate`)  
