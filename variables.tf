@@ -9,3 +9,8 @@ variable "table_name" {
   type        = string
   default     = "alfatah-bookinventory"
 }
+
+variable "my_ip_cidr" {
+  default = "0.0.0.0/0"
+}
+
